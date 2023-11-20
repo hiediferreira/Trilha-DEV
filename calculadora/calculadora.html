@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="calc.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">        
+</head>
+
+<body>
+    <section class="corpo">
+        <h1 id="titulo">Calculadora da Hiédi  <img id="emoji" src="emojip.png" alt="Emoji piscando"></h1>
+        <p id="apresentacao">Essa é uma calculadora para testar meus conhecimentos em HTML, CSS e JavaScript. </p>
+        <h2>Usando a calculadora:</h2>
+        <ol id="lista">
+            <li>1º - Insira o primeiro número;</li>
+            <li>2º - Insira o segundo número;</li>
+            <li>3º - Escolha a operação matemática desejada;</li>
+            <li>4º - Clique em calcular.</li>     
+        </ol>
+
+        <form>
+            <label for="num1">Primeiro Número:</label>
+            <input type="number" id="num1" name="num1" min="1" placeholder="Primeiro número"><br>        
+            <br>
+
+            <label for="num2">Segundo Número:</label>
+            <input type="number" id="num2" name="num2" min="1" placeholder="Segundo número"><br>
+            <br>
+
+            <p>Escolha a operação:</p>
+            <select name="operacao" id="operacao">
+                <option disabled>Selecione uma opção</option> 
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+                <option value="soma">Soma</option>
+                <option value="subt">Subtração</option>
+            </select><br>
+            <br>
+
+            <button 
+                id="botao" type="submit">Calcular
+            </button>
+
+            <p id="resposta">            
+            </p>
+        </form>         
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

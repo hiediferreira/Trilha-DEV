@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo {
+    text-align: center;
+    max-width: 640px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #15bdbd;
+    margin: auto;
+}
+
+#titulo{
+    font-size: 1.2em;
+    color: #15bdbd;
+    border-bottom: 1.5px solid #15bdbd;
+}
+
+#emoji {
+    min-width: 2em;
+    max-width: 2em;
+}
+
+#apresentacao {
+    text-align: center;
+    margin: 0px 50px 10px 50px;;
+}
+
+#lista {
+    text-align: justify;
+    list-style: none;
+}
+
+#botao {
+    color: black;
+    background-color: #15bdbd;
+    border: 2px solid black;
+}
